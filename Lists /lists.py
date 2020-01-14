@@ -33,3 +33,16 @@ nilaiList = len(fruits)
 print("Panjang nilai yang ada di list berjumlah", nilaiList)
 
 # NB : Function len dimulai dihitung dari 1
+
+# Beberapa method untuk memanipulasi list
+data = ["Data 1", "Data 2", "Data 3"]
+print(data)
+
+data.append("Data 4") # Menambahkan nilai baru ke list
+print(data)
+data.insert(2, "Data acak") # Menambahkan nilai baru sesuai index yang di berikan
+print(data)
+data.remove("Data acak") # Menghapus data pada list
+print(data)
+data.reverse() # Membalik data pada list
+print(data)
